@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>天气预报</title>
+		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<style>
+			th {
+				text-align: center;
+			}
+		</style>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+
+	<body>
+		<div class="text-center">
+			<select id="province" class="btn   btn-primary">
+				<option>请选择</option>
+			</select>
+			<select id="city" class="btn   btn-success">
+				<option>请选择</option>
+			</select>
+			<select id="area" class="btn   btn-danger">
+				<option>请选择</option>
+			</select>
+			</br>
+			<span id="ts" style="display: none;">这个地区暂时没有找到,请更换县区</span>
+		</div>
+		<table class="table table-bordered ">
+			<caption id="city" class="text-center"></caption>
+			<thead id="title">
+
+			</thead>
+			<tbody id="page">
+			</tbody>
+		</table>
+	</body>
+
+</html>
